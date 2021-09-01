@@ -11,7 +11,7 @@ const Blog = require('./models/Blog');
 const app = express();
 
 //connect to mongoose
-mongoose.connect('mongodb+srv://errol:aUdi0o0o@cluster0.6ps2d.mongodb.net/tr', {
+mongoose.connect('mongodb+srv://, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,

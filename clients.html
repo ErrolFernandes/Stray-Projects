@@ -1,0 +1,534 @@
+<html lang="en" xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link rel=File-List href="clients_files/filelist.xml">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="public/Asset 2.png" type="image/x-icon">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <title>ACME CLEANROOM SERVICES</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <style id="Book1_12923_Styles">
+    <!--table
+      {mso-displayed-decimal-separator:"\.";
+      mso-displayed-thousand-separator:"\,";}
+    .font512923
+      {color:black;
+      font-size:12.0pt;
+      font-weight:700;
+      font-style:normal;
+      text-decoration:none;
+      font-family:Calibri, sans-serif;
+      mso-font-charset:0;}
+      :root {
+      --primary-color: indigo;
+        }
+    .xl1512923
+      {padding-top:1px;
+      padding-right:1px;
+      padding-left:1px;
+      mso-ignore:padding;
+      color:black;
+      font-size:11.0pt;
+      font-weight:400;
+      font-style:normal;
+      text-decoration:none;
+      font-family:Calibri, sans-serif;
+      mso-font-charset:0;
+      mso-number-format:General;
+      text-align:general;
+      vertical-align:bottom;
+      mso-background-source:auto;
+      mso-pattern:auto;
+      white-space:nowrap;}
+    .xl6312923
+      {padding-top:1px;
+      padding-right:1px;
+      padding-left:1px;
+      mso-ignore:padding;
+      color:white;
+      font-size:14.0pt;
+      font-weight:700;
+      font-style:normal;
+      text-decoration:none;
+      font-family:Calibri, sans-serif;
+      mso-font-charset:0;
+      mso-number-format:General;
+      text-align:center;
+      vertical-align:middle;
+      border:.5pt solid windowtext;
+      background:var(--primary-color);
+      mso-pattern:black none;
+      white-space:normal;}
+    .xl6412923
+      {padding-top:1px;
+      padding-right:1px;
+      padding-left:1px;
+      mso-ignore:padding;
+      color:black;
+      font-size:12.0pt;
+      font-weight:700;
+      font-style:normal;
+      text-decoration:none;
+      font-family:Calibri, sans-serif;
+      mso-font-charset:0;
+      mso-number-format:General;
+      text-align:center;
+      vertical-align:middle;
+      border:.5pt solid windowtext;
+      mso-background-source:auto;
+      mso-pattern:auto;
+      white-space:normal;}
+      table{
+        max-width: 100%;
+      }
+    .xl6512923
+      {padding-top:1px;
+      padding-right:1px;
+      padding-left:1px;
+      mso-ignore:padding;
+      color:black;
+      font-size:12.0pt;
+      font-weight:700;
+      font-style:normal;
+      text-decoration:none;
+      font-family:"Bookman Old Style", serif;
+      mso-font-charset:0;
+      mso-number-format:General;
+      text-align:center;
+      vertical-align:middle;
+      border:.5pt solid windowtext;
+      mso-background-source:auto;
+      mso-pattern:auto;
+      white-space:normal;}
+    -->
+    </style>
+</head>
+<body>
+  <header>
+    <!-- nav bar -->
+   <nav class="nav-wrapper transparent z-depth-0">
+     <div class="container">
+      <a href="Home.html" class="brand-logo center" id="logoo"><span id="acme"><img src ="public/eeeeAsset 3.png" width="30px" height="36px"> ACME CLEANROOM SERVICES</span></a><br>
+       <a href="Home.html" class="sidenav-trigger" data-target="mobile-menu">
+       <i class="material-icons">menu</i></a>
+
+       <ul class=" left hide-on-med-and-down " id="jadu">
+         <li><a href="Home.html" id="Home">Home</a></li>
+         <li><a href="services.html" id="servicess">Services</a></li>
+         <li><a href="clients.html" id="clients">Clients</a></li>
+         <li><a href="Home.html#contactus" id="contacts">Contact us</a></li>
+       </ul>
+       <ul class="sidenav" id="mobile-menu">
+         <li><a href="Home.html" id="mobile">Home</a></li>
+         <li><a href="services.html" id="mobile">services</a></li>
+         <li><a href="clients.html" id="mobile">Clients</a></li>
+         <li ><a href="Home.html#contactus" id="mobile">contact us</a></li>
+       </ul>
+       <ul class="right">
+         <div>
+           <form >
+             <div>
+             <input id="search" type="text" placeholder=" Search    "  autocomplete="organization"> 
+             </div>
+           </form>
+           <script>
+                $(document).ready(function(){
+                  $("#search").on("keyup", function() {
+                    var value = $(this).val().toLowerCase();
+                    $("tr").filter(function() {
+                      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                    });
+                  });
+                });
+                </script>
+         </div>
+       </ul>
+     </div>
+
+   
+       
+   </nav>
+ </header>
+
+
+    <!-- clients list -->
+      <section class="container section scrollspy" id="servicees">
+        <div class="row">
+          <div class="col s12 l12">
+            <p id="topend" class="topp center">Our clients</p>
+              <!--list-->
+            
+
+<div id="Book1_12923" align=center x:publishsource="Excel">
+
+<table border=0 cellpadding=0 cellspacing=0 width=354 style='border-collapse:
+ collapse;table-layout:fixed;width:266pt'>
+ <col width=49 style='mso-width-source:userset;mso-width-alt:1735;width:37pt'>
+ <col width=305 style='mso-width-source:userset;mso-width-alt:10837;width:229pt'>
+ <tr height=48 style='mso-height-source:userset;height:36.0pt'>
+  <td colspan=2 height=48 class=xl6312923 width=354 style='height:36.0pt;
+  width:266pt'><span lang=EN-US>SOME OF OUR ESTEEMED CUSTOMERS LIST</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:1'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>1</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Glenmark Pharmaceuticals Limited, Goa.(All
+  Plants).</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:2'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>2</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Merck Limited, Goa.Now Procter and Gamble</span></td>
+ </tr>
+ <tr height=62 style='height:46.8pt;mso-yfti-irow:3'>
+  <td height=62 class=xl6412923 width=49 style='height:46.8pt;border-top:none;
+  width:37pt'><span lang=EN-US>3</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Apex Laborataries,Chennai.(Plant I &amp;
+  II).</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:4'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>4</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Prakruti Lifesceince, Udupi-Karanataka.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:5'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>5</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Prakruti Product Pvt. Ltd.,
+  Ankola-Karanataka.</span></td>
+ </tr>
+ <tr height=62 style='height:46.8pt;mso-yfti-irow:6'>
+  <td height=62 class=xl6412923 width=49 style='height:46.8pt;border-top:none;
+  width:37pt'><span lang=EN-US>6</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Nipro India Corporation<span
+  style='mso-spacerun:yes'>� </span>Pvt Ltd, Khandala,Satara, Maharashtra.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:7'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>7</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Watson Pharma Pvt. Limited, Goa.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:8'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>8</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Turbochem India Limited, Goa.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:9'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>9</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Sance Laboratories Pvt.Ltd., Kerala.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:10'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>10</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Indoco Remedies Limited(Plant I &amp;
+  II&amp; III), Goa.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:11'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>11</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Salgaocar Medical Research Centre, Goa.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:12'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>12</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Indian Oil Corporation, Goa.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:13'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>13</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Suvidha Engineers Ltd, Pune.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:14'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>14</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Nestor Pharmaceuticals, Goa.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:15'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>15</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Jai Ambe, Chiplun.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:16'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>16</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Lupin Labs, Goa.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:17'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>17</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Colgate Palmolive India Limited, Goa.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:18'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>18</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Sequent Scientific Limited, Mangalore-</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:19'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>19</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Teva Pharmaceuticals, Goa.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:20'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>20</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Vergo Pharma Research Limited, Goa.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:21'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>21</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Molbio Diagnostics Pvt. Ltd., Goa</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:22'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>22</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Medorganics India Pvt. Ltd., Bangalore.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:23'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>23</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Lozen Pharmaceuticals Pvt. Ltd, Kerala.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:24'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>24</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Solara Active Pharma Science Ltd. Ind Area,
+  Mangalore.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:25'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>25</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Wallace Pharmaceutical, Goa.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:26'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>27</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Sequent Scientific Mangalore, Karnataka.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:27'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>28</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Tulip Group, Verna.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:28'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>29</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s GAPL, Goa.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:29'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>30</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Tulip Group, Goa.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:30'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>31</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s TranTech turnkey Pvt Ltd, Pune.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:31'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>34</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Ethypharm LL Pvt Ltd, Ambernath.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:32'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>35</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Serum Institute, Pune.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:33'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>36</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Cipla, Goa.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:34'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>37</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Cadila Group , Verna.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:35'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>38</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Strides, Karnataka.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:36'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>39</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s AFL, Bangladesh.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:37'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>40</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s HMC, Doha-Qatar.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:38'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>41</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Strides Arcolab, Nigeria.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:39'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>42</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Quest Vitamins, Dubai<font
+  class="font512923">.</font></span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:40'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>43</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Colorcon Verna,Goa.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:41'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>44</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Sigma Laboratories, Goa.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:42'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>45</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s VVF, Dubai, Poland, South Africa.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:43'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>46</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Aventis, Goa.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:44'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>47</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Encube Ethicale, Madkaim.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:45'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>48</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Wockhardt Ltd (Biotech Park), Aurangabad.</span></td>
+ </tr>
+ <tr height=42 style='height:31.2pt;mso-yfti-irow:46'>
+  <td height=42 class=xl6412923 width=49 style='height:31.2pt;border-top:none;
+  width:37pt'><span lang=EN-US>49</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Serum Institute (Biopark), Pune.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:47'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>50</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Cadila Healthcare Ltd, Goa.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:48'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>51</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Ratio Pharma, Goa.</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt;mso-yfti-irow:49;mso-yfti-lastrow:yes'>
+  <td height=21 class=xl6412923 width=49 style='height:15.6pt;border-top:none;
+  width:37pt'><span lang=EN-US>52</span></td>
+  <td class=xl6512923 width=305 style='border-top:none;border-left:none;
+  width:229pt'><span lang=EN-US>M/s Lupin Pharmaceutical, Goa.</span></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=49 style='width:37pt'></td>
+  <td width=305 style='width:229pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+          </div>
+        </div>
+        </section>
+
+
+         <!-- Footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="center">
+          <h5>connect us</h5>
+            <ul>
+                <li><a href="Home.html" class="grey-text text-lighten-3">Home</a></li>
+                <li><a href="services.html" class="grey-text text-lighten-3">Services</a></li>
+                <li><a href="clients.html" class="grey-text text-lighten-3">Clients</a></li>
+                <li><a href="Home.html#contactus" class="grey-text text-lighten-3">Contact Us</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey-text text darken-4">
+    <div class="container center-align">&copy;Acme Cleanroom Services 2021-2022</div>
+    </div>
+  </footer>
+    <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.materialboxed').materialbox();
+    });
+  </script>
+</body>
+</html>
